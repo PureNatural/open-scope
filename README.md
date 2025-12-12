@@ -15,3 +15,7 @@
 
 ## 评价指标
 为全面评估大语言模型在GitHub项目主题标注任务中的性能表现，主要采用了精确率、召回率、F1分数和成功率四个核心指标
+
+## Baseline
+
+实验选择了当前主流的五个大语言模型进行对比评估，包括GPT-4o（后文简称为GPT）、DeepSeek-v3（DeepSeek）、Claude-3-7-Sonnet（Claude）、Gemini-2.0-Flash（Gemini）和Qwen-Plus-Latest（Qwen）。GPT作为OpenAI的旗舰模型具有优秀的通用能力；DeepSeek在代码理解方面表现突出；Claude在文本分析任务中具有良好表现；Gemini具有优秀的推理效率和多模态能力；Qwen作为中文优化模型在多语言场景下具有优势。
