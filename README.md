@@ -33,3 +33,8 @@
 | Claude  | 0.51 | 0.24 | 0.33 | 0.85 | 0.45 | 0.28 | 0.35 | 0.88 | 0.41 | 0.31 | 0.36 | 0.89 |
 | Gemini  | 0.39 | 0.19 | 0.25 | 0.68 | 0.35 | 0.22 | 0.27 | 0.71 | 0.32 | 0.24 | 0.27 | 0.72 |
 | Qwen    | 0.47 | 0.22 | 0.30 | 0.81 | 0.42 | 0.25 | 0.32 | 0.84 | 0.38 | 0.28 | 0.32 | 0.86 |
+
+## License
+
+This project is licensed under the Apache License 2.0.  
+See the [LICENSE](LICENSE) file for details.
