@@ -7,7 +7,7 @@
 
 GitHub 作为全球最大的开源平台，其仓库数量持续增长，但大量项目缺乏有效的 Topic 标签。这不仅影响项目发现效率，也制约了开源生态的深度分析。
 
-**OpenScope** 旨在解决这一问题：基于大语言模型（LLM）构建自动化、高准确率的 GitHub Topic 生成与技术标签扩展系统，为 [OpenDigger](https://github.com/X-lab2017/OpenDigger) 提供更完整、结构化的标签数据基础。
+**OpenScope** 旨在解决这一问题：基于大语言模型（LLM）构建自动化、高准确率的 GitHub Topic 生成与技术标签扩展系统，为 [OpenDigger](https://github.com/X-lab2017/open-digger) 提供更完整、结构化的标签数据基础。
 
 ---
 
