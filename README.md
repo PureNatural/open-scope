@@ -40,7 +40,7 @@ open-scope/
 python data/test_topic.py
 
 # 执行 Self-Tag 生成 Topic
-python data/self_tag.py
+python topic-recommend/run-self-tag.py
 
 # 生成最终技术标签
 python data/label-gen.py
