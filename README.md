@@ -39,7 +39,7 @@ open-scope/
 # 测试 LLM 生成 Topic
 python data/test_topic.py
 
-# 执行 Self-Tag 生成 Topic
+# 执行 Run-Self-Tag 生成 Topic
 python topic-recommend/run-self-tag.py
 
 # 生成最终技术标签
