@@ -77,7 +77,7 @@ python data/label-gen.py
    - 输出最终 Top-N 高置信度 Topic
 
 
-<img src="topic-gen.png" alt="Self-Tag 框架图" width="500" />
+<img src="topic-gen.png" alt="Self-Tag 框架图" width="600" />
 
 *self-tag框架图*
 
@@ -87,7 +87,7 @@ python data/label-gen.py
 - 将 Self-Tag 生成的 Topic 与关键词库匹配  
 - 匹配成功则赋予对应技术标签，完成结构化扩展
 
-<img src="label-process.png" alt="标签生成流程" width="300" />
+<img src="label-process.png" alt="标签生成流程" width="400" />
 
 *标签生成流程图*
 
