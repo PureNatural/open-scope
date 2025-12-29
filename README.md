@@ -58,6 +58,12 @@ python data/label-gen.py
 
 ### 2. Self-Tag 框架（多 Prompt 并行 + 自校准）
 
+
+<img src="topic-gen.png" alt="Self-Tag 框架图" width="700" />
+
+*self-tag框架图*
+
+
 1. **文本结构化**  
    - 使用 Markdown 解析器拆分 README 为章节、段落、代码块等  
    - 计算各章节“信息密度”（如实体密度、TF-IDF）
@@ -76,10 +82,6 @@ python data/label-gen.py
    - 通过 LLM 二次校正：“剔除无关标签，补充遗漏项”  
    - 输出最终 Top-N 高置信度 Topic
 
-
-<img src="topic-gen.png" alt="Self-Tag 框架图" width="600" />
-
-*self-tag框架图*
 
 ### 3. 技术标签生成
 
