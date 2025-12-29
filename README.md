@@ -59,7 +59,7 @@ python data/label-gen.py
 ### 2. Self-Tag 框架（多 Prompt 并行 + 自校准）
 
 
-<img src="topic-gen.png" alt="Self-Tag 框架图" width="700" />
+<img src="topic-gen.png" alt="Self-Tag 框架图" width="900" />
 
 *self-tag框架图*
 
