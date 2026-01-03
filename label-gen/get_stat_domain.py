@@ -13,7 +13,6 @@ for domains_str in df["domain"].dropna():
 # 转换为 DataFrame 方便查看和保存
 stats_df = pd.DataFrame(counter.items(), columns=["domain", "count"]).sort_values(by="count", ascending=False)
 
-# 输出结果
 print(stats_df)
 
 stats_df.to_csv("domain_stats.csv", index=False)
