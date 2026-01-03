@@ -4,7 +4,6 @@ from collections import Counter
 # 读取带有 domain 字段的文件
 df = pd.read_csv("output_with_domain_v3.csv")
 
-# 统计每个领域的项目数量（一个项目可能属于多个领域）
 counter = Counter()
 
 for domains_str in df["domain"].dropna():
