@@ -16,5 +16,4 @@ stats_df = pd.DataFrame(counter.items(), columns=["domain", "count"]).sort_value
 # 输出结果
 print(stats_df)
 
-# 如果需要保存为 CSV
 stats_df.to_csv("domain_stats.csv", index=False)
