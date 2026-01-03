@@ -10,7 +10,6 @@ for domains_str in df["domain"].dropna():
     for d in domains_str.split(","):
         counter[d] += 1
 
-# 转换为 DataFrame 方便查看和保存
 stats_df = pd.DataFrame(counter.items(), columns=["domain", "count"]).sort_values(by="count", ascending=False)
 
 print(stats_df)
