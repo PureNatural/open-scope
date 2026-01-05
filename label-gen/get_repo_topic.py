@@ -4,7 +4,6 @@ import time
 import requests
 import pandas as pd
 
-# GitHub API token
 GITHUB_TOKEN = ''
 HEADERS = {"Accept": "application/vnd.github+json"}
 if GITHUB_TOKEN:
