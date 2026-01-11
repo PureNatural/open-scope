@@ -43,7 +43,7 @@ python data/test_topic.py
 python topic-recommend/run-self-tag.py
 
 # 生成最终技术标签
-python data/get_repo_domain.py
+python label-gen/get_repo_domain.py
 ```
 
 ---
